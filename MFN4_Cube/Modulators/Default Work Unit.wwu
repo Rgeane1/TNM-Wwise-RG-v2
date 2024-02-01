@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{35A325B1-02B6-4B70-AA8C-1F431F36AEB1}" SchemaVersion="103">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{35A325B1-02B6-4B70-AA8C-1F431F36AEB1}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorLfo Name="Synth Vibrato" ID="{CE2A1455-4BA1-4C04-A6BC-4BC435C56FF7}" ShortID="353951262">
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{68698C1D-5C98-49AE-81C2-E0A1581871D4}" ShortID="636465944">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="CC #1: Modulation" ID="{B618CBBE-04FA-4149-A36B-37B8A1F2B642}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{2872FD1C-4FA7-4F3D-94BF-320283CC7872}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>127</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="LfoFrequency" Type="Real64" Value="6"/>
+					</PropertyList>
+				</ModulatorLfo>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

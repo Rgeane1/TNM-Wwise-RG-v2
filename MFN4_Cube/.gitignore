@@ -1,0 +1,13 @@
+# This .gitignore file should be placed at the root of your Wwise project directory
+#
+#
+
+
+.cache
+*.akd
+*.prof
+*.validationcache
+*/Assets/Wwise/Editor/ProjectData/AkWwiseProjectData.asset*
+
+
+.DS_Store

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F1AF485C-C877-4808-B263-879FAD5CFB69}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Music" ID="{F1AF485C-C877-4808-B263-879FAD5CFB69}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="EnemyAware" ID="{C12B3097-46D2-469C-BA09-0F9BD04EBEA2}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="101"/>
+						<Property Name="Min" Type="Real64" Value="-1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="10"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="1000"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

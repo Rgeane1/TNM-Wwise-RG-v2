@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4B171809-A1BF-486E-A442-DBF6B9DB3CD7}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{4B171809-A1BF-486E-A442-DBF6B9DB3CD7}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Music Testing" ID="{4AA8F3A1-700E-455F-BDD5-95F5D7E5520A}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Boss" ID="{895109B2-DB46-4727-9813-CAD194566072}" WorkUnitID="{25784DDF-F959-48B4-A3A6-D457CF13E563}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Teleport" ID="{A53D8E87-9E41-4366-B168-2AB3FB6A46AF}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Combat" ID="{4FD7E5C0-BB77-4FB1-A4B2-2CCAF8E77293}" WorkUnitID="{25784DDF-F959-48B4-A3A6-D457CF13E563}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ItemHealth100" ID="{3F0A3FBB-3263-4C35-90D5-17307F4C4DA1}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Explore" ID="{3F63E32B-58A0-41E8-88C4-F97166420561}" WorkUnitID="{25784DDF-F959-48B4-A3A6-D457CF13E563}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ItemHealth200" ID="{BDEB98FC-346F-418D-8A21-41EC426C30AB}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="MusicVolume" ID="{12A86CFA-9D0B-438E-8C88-ACE03D5EF5F5}"/>
+							<Value>255</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="EnemyAware" ID="{C12B3097-46D2-469C-BA09-0F9BD04EBEA2}"/>
+							<Value>31.882</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="VoiceVolume" ID="{1BC7160B-65AB-47A5-9D7E-CF39A0FF4D2A}"/>
+							<Value>255</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SFXVolume" ID="{9A7FE12B-15B9-4CBD-85BC-730450CE68B2}"/>
+							<Value>255</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="PlayerHealth" ID="{B1BC4BE3-DED0-4EF1-89E0-83D78E80839C}"/>
+							<Value>92</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="No" ID="{DE75061E-028A-4D05-8487-2B76CFA42B90}"/>
+						<CurrentStateRef Name="Gameplay" ID="{43F74036-9C8B-48E0-A58E-C2D50FE727C4}"/>
+						<CurrentStateRef Name="Alive" ID="{9C5D7F20-92FC-4387-9BCC-F6F4D27F9B34}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Badly_Injured" ID="{C0E543E8-251E-4B93-99EC-31A7933E6DD6}"/>
+						<CurrentSwitchRef Name="Explore" ID="{5CC1848B-B9F6-465C-8638-EB86F19B8333}"/>
+						<CurrentSwitchRef Name="Left" ID="{AB05A8F3-EDB5-4706-9091-48CBB0549E6F}"/>
+						<CurrentSwitchRef Name="Concrete" ID="{0BFD2921-C3B4-4EF0-A3A5-BDAA47C94487}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

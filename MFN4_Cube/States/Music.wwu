@@ -12,6 +12,13 @@
 						<State Name="Victory" ID="{9D4E034F-41EC-4FF1-ACC3-389B09BADEF7}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="Gameplay" ID="{B920D004-D206-4D33-AE5B-526A22EDA834}">
+					<ChildrenList>
+						<State Name="None" ID="{CB1994F3-8CBB-48DC-994E-B4379537CEB5}"/>
+						<State Name="Explore" ID="{D7218684-6D38-4A0B-B552-701FD8A471BD}"/>
+						<State Name="Combat" ID="{9B9505C7-F947-48E5-8DDD-30BEF9BDC0CF}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

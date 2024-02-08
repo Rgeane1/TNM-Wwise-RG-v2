@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="Project" SchemaVersion="103" WwiseVersion="v2021.1.14" WwiseBuild="8108">
 	<ProjectInfo>
-		<Project Name="MFN4_Cube-YourInitials" ID="{5E03F73B-C9A2-47B5-AC03-9CEC14D69526}">
+		<Project Name="MFN4_Cube-RG" ID="{5E03F73B-C9A2-47B5-AC03-9CEC14D69526}">
 			<Platforms>
 				<Platform Name="Mac" ReferencePlatform="Mac" ID="{9C6217D5-DD11-4795-87C1-6CE02853C541}"/>
 				<Platform Name="Windows" ReferencePlatform="Windows" ID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EC}"/>
@@ -33,7 +33,7 @@
 				</Property>
 				<Property Name="SoundBankAllowExceedingSB" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
-				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\..\cube\cube_source\src\"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\..\cube\cube_source\src"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Mac">..\..\cube\soundbanks\Mac\</Value>

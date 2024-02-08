@@ -82,7 +82,9 @@
 				</SoundBank>
 				<SoundBank Name="Music" ID="{0E87729F-B036-4F86-B90C-A14913F2AF3B}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Monsters_Aware" ID="{DD3E9E80-9339-4438-8CC5-FB365BA43C3F}" WorkUnitID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music" ID="{F6EC3C7D-849F-4CC5-B346-02D39053F928}" WorkUnitID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Monsters_Unaware" ID="{15836426-1FCC-4DC9-9411-E228E50BD32E}" WorkUnitID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

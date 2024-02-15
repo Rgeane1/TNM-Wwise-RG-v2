@@ -22,6 +22,40 @@
 						<Switch Name="Right" ID="{096E3250-BEBF-455F-BD5F-7DF77F52D8FB}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="PlayerHealth" ID="{3AFEF355-54FA-4B5B-BF90-932CCCB45087}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Health_Low" ID="{00392D75-8D45-4F3F-A501-3CD9AA3ADE08}"/>
+						<Switch Name="Health_Normal" ID="{0234F81C-D264-4BAB-9032-B146F2CA1A6B}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="PlayerHealth" ID="{B1BC4BE3-DED0-4EF1-89E0-83D78E80839C}"/>
+						<Curve Name="" ID="{E18749DC-B25A-4CE4-B2DA-0D48FF72BD34}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>30.31161</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>100</XPos>
+									<YPos>2</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

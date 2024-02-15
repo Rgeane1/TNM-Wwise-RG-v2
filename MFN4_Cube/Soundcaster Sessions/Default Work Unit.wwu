@@ -37,7 +37,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="PlayerHealth" ID="{B1BC4BE3-DED0-4EF1-89E0-83D78E80839C}"/>
-							<Value>100</Value>
+							<Value>10</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
@@ -45,13 +45,14 @@
 						<CurrentStateRef Name="None" ID="{77810230-8477-4DDD-A39C-08ACF998DD62}"/>
 						<CurrentStateRef Name="None" ID="{39D7FC90-549C-4DC5-AC21-CB6954DDD32F}"/>
 						<CurrentStateRef Name="None" ID="{3F8341B5-F82B-487B-85E9-55F1A71482A9}"/>
-						<CurrentStateRef Name="Explore" ID="{D7218684-6D38-4A0B-B552-701FD8A471BD}"/>
+						<CurrentStateRef Name="Combat" ID="{9B9505C7-F947-48E5-8DDD-30BEF9BDC0CF}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Badly_Injured" ID="{C0E543E8-251E-4B93-99EC-31A7933E6DD6}"/>
 						<CurrentSwitchRef Name="Explore" ID="{5CC1848B-B9F6-465C-8638-EB86F19B8333}"/>
 						<CurrentSwitchRef Name="Left" ID="{AB05A8F3-EDB5-4706-9091-48CBB0549E6F}"/>
 						<CurrentSwitchRef Name="Concrete" ID="{0BFD2921-C3B4-4EF0-A3A5-BDAA47C94487}"/>
+						<CurrentSwitchRef Name="Health_Normal" ID="{0234F81C-D264-4BAB-9032-B146F2CA1A6B}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>

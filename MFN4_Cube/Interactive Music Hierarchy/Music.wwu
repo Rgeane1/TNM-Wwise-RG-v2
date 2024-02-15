@@ -870,7 +870,7 @@
 					<ChildrenList>
 						<MusicSegment Name="MfNM4_Cube-RG-Explore-Loop-110-2-v2" ID="{825ECB2B-5EAC-4BB7-8545-95D10705A060}" ShortID="135624384">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="41939.3293598234"/>
+								<Property Name="EndPosition" Type="Real64" Value="76430.8765778647"/>
 								<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
 							</PropertyList>
 							<ReferenceList>
@@ -1054,14 +1054,21 @@
 								<MusicTrack Name="MFN4_Cube-CK-Combat-Loop-72BPM-17_8-P6_8-v01" ID="{CC33AE74-66D8-4A5B-9C8E-4E19FED47D67}" ShortID="789414282">
 									<PropertyList>
 										<Property Name="HdrEnvelopeSensitivity" Type="Real64" Value="20"/>
+										<Property Name="MusicTrackType" Type="int16" Value="3"/>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="Health_Normal" ID="{0234F81C-D264-4BAB-9032-B146F2CA1A6B}" WorkUnitID="{0DB865AC-36E1-4B45-8EFA-B546403F30E3}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F10B222B-2801-430A-B717-538AC6BBF93D}"/>
 										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="PlayerHealth" ID="{3AFEF355-54FA-4B5B-BF90-932CCCB45087}" WorkUnitID="{0DB865AC-36E1-4B45-8EFA-B546403F30E3}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="MFN4_Cube-CK-Combat-Loop-72BPM-17_8-P6_8-v01" ID="{8168E7E0-A005-4CFE-B20C-01D479312119}">
+										<AudioFileSource Name="MfNM4_Cube-RG-Combat-Loop-110-2-v1" ID="{8865DBDC-2A80-44FE-ADD2-218861390A62}">
 											<PropertyList>
 												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
 												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
@@ -1069,9 +1076,22 @@
 												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
 											</PropertyList>
 											<Language>SFX</Language>
-											<AudioFile>MFN4_Cube-CK-Combat-Loop-72BPM-17_8-P6_8-v01.wav</AudioFile>
+											<AudioFile>MfNM4_Cube-RG-Combat-Loop-110-2-v1.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="886235721"/>
+												<MediaID ID="881563946"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="MfNM4_Cube-RG-Combat-LowHealth-110-2-v1" ID="{4AF9F592-5EAD-4E99-BFB2-4717B4D1428F}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="LoopEnd" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimBegin" Type="Real64" Value="-0.001"/>
+												<Property Name="TrimEnd" Type="Real64" Value="-0.001"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>MfNM4_Cube-RG-Combat-LowHealth-110-2-v1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="877431729"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -1101,6 +1121,35 @@
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{152E928C-E0FA-43CF-83DA-08C36ECAF73F}">
+													<PropertyList>
+														<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+														<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+														<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+													</PropertyList>
+													<TransitionInfo>
+														<SourceFadeOut>
+															<MusicFade Name="Source Fade-out" ID="{5C4D4411-BECF-4DAC-904C-B014059AB9FF}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="1"/>
+																	<Property Name="FadeOffset" Type="Real64" Value="2"/>
+																	<Property Name="FadeTime" Type="Real64" Value="2"/>
+																	<Property Name="FadeType" Type="int16" Value="1"/>
+																</PropertyList>
+															</MusicFade>
+														</SourceFadeOut>
+														<DestinationFadeIn>
+															<MusicFade Name="Destination Fade-in" ID="{A7281AE8-D671-4DCD-88BD-39F1963D3DCE}">
+																<PropertyList>
+																	<Property Name="FadeCurve" Type="int16" Value="1"/>
+																	<Property Name="FadeTime" Type="Real64" Value="2"/>
+																</PropertyList>
+															</MusicFade>
+														</DestinationFadeIn>
+													</TransitionInfo>
+												</MusicTransition>
+											</ChildrenList>
 											<TransitionInfo/>
 										</MusicTransition>
 									</TransitionList>
@@ -1113,18 +1162,51 @@
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClip Name="MFN4_Cube-CK-Combat-Loop-72BPM-17_8-P6_8-v01" ID="{87EC4CF7-6B03-445C-83A3-F30081984C60}">
+																		<MusicClip Name="MfNM4_Cube-RG-Combat-Loop-110-2-v1" ID="{F53C4A0D-D24E-4A02-BB74-1CC1DC278A69}">
 																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="20208.3125"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="35443.6666666667"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																				<Property Name="PlayAt" Type="Real64" Value="218.151153923339"/>
 																			</PropertyList>
-																			<AudioSourceRef Name="MFN4_Cube-CK-Combat-Loop-72BPM-17_8-P6_8-v01" ID="{8168E7E0-A005-4CFE-B20C-01D479312119}"/>
+																			<AudioSourceRef Name="MfNM4_Cube-RG-Combat-Loop-110-2-v1" ID="{8865DBDC-2A80-44FE-ADD2-218861390A62}"/>
 																		</MusicClip>
 																	</Local>
 																</Reference>
 															</ObjectList>
 														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Health_Normal" ID="{0234F81C-D264-4BAB-9032-B146F2CA1A6B}" WorkUnitID="{0DB865AC-36E1-4B45-8EFA-B546403F30E3}"/>
+															</Reference>
+														</ReferenceList>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{7DDC1153-AC4F-44DB-B9AC-30A7E85F4F5C}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="MfNM4_Cube-RG-Combat-LowHealth-110-2-v1" ID="{8C6187A1-20C3-47CD-84DB-4CED1977CEAE}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="35443.6666666667"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="MfNM4_Cube-RG-Combat-LowHealth-110-2-v1" ID="{4AF9F592-5EAD-4E99-BFB2-4717B4D1428F}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+														<ReferenceList>
+															<Reference Name="TrackSequenceSwitch">
+																<ObjectRef Name="Health_Low" ID="{00392D75-8D45-4F3F-A501-3CD9AA3ADE08}" WorkUnitID="{0DB865AC-36E1-4B45-8EFA-B546403F30E3}"/>
+															</Reference>
+														</ReferenceList>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>

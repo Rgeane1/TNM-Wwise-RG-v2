@@ -42,10 +42,10 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="None" ID="{75CE2A16-06FA-4B7B-98DD-ED2B7332C4ED}"/>
-						<CurrentStateRef Name="None" ID="{77810230-8477-4DDD-A39C-08ACF998DD62}"/>
-						<CurrentStateRef Name="None" ID="{39D7FC90-549C-4DC5-AC21-CB6954DDD32F}"/>
+						<CurrentStateRef Name="Gameplay" ID="{43F74036-9C8B-48E0-A58E-C2D50FE727C4}"/>
+						<CurrentStateRef Name="Defeated" ID="{88957439-75EF-4388-B7D5-C80FBE8EE054}"/>
 						<CurrentStateRef Name="None" ID="{3F8341B5-F82B-487B-85E9-55F1A71482A9}"/>
-						<CurrentStateRef Name="Combat" ID="{9B9505C7-F947-48E5-8DDD-30BEF9BDC0CF}"/>
+						<CurrentStateRef Name="Explore" ID="{D7218684-6D38-4A0B-B552-701FD8A471BD}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Badly_Injured" ID="{C0E543E8-251E-4B93-99EC-31A7933E6DD6}"/>

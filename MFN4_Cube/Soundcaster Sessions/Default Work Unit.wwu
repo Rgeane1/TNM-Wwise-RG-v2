@@ -6,15 +6,15 @@
 				<SoundcasterSession Name="Music Testing" ID="{4AA8F3A1-700E-455F-BDD5-95F5D7E5520A}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Music" ID="{F6EC3C7D-849F-4CC5-B346-02D39053F928}" WorkUnitID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}"/>
+							<ObjectRef Name="Boss" ID="{E03E454B-28F7-4B9B-B37E-90D12F2F5CEE}" WorkUnitID="{25784DDF-F959-48B4-A3A6-D457CF13E563}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Monsters_Unaware" ID="{15836426-1FCC-4DC9-9411-E228E50BD32E}" WorkUnitID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}"/>
+							<ObjectRef Name="Death" ID="{940B63B0-A185-490E-AE18-BB16A559A4A5}" WorkUnitID="{25784DDF-F959-48B4-A3A6-D457CF13E563}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Monsters_Aware" ID="{DD3E9E80-9339-4438-8CC5-FB365BA43C3F}" WorkUnitID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}"/>
+							<ObjectRef Name="Victory" ID="{E0DB1129-5EEB-4129-960E-26DE5C949470}" WorkUnitID="{25784DDF-F959-48B4-A3A6-D457CF13E563}"/>
 							<Position X="2" Y="0"/>
 						</Module>
 					</ModuleList>
@@ -37,18 +37,18 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="PlayerHealth" ID="{B1BC4BE3-DED0-4EF1-89E0-83D78E80839C}"/>
-							<Value>10</Value>
+							<Value>100</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{75CE2A16-06FA-4B7B-98DD-ED2B7332C4ED}"/>
-						<CurrentStateRef Name="Gameplay" ID="{43F74036-9C8B-48E0-A58E-C2D50FE727C4}"/>
-						<CurrentStateRef Name="Defeated" ID="{88957439-75EF-4388-B7D5-C80FBE8EE054}"/>
+						<CurrentStateRef Name="Yes" ID="{0B88A8D2-2D65-4B5E-A92A-10DB34C07E8F}"/>
+						<CurrentStateRef Name="Boss" ID="{560DAA33-7BFB-40A0-AC96-FAAFAE90C555}"/>
+						<CurrentStateRef Name="Alive" ID="{9C5D7F20-92FC-4387-9BCC-F6F4D27F9B34}"/>
 						<CurrentStateRef Name="None" ID="{3F8341B5-F82B-487B-85E9-55F1A71482A9}"/>
-						<CurrentStateRef Name="Explore" ID="{D7218684-6D38-4A0B-B552-701FD8A471BD}"/>
+						<CurrentStateRef Name="Combat" ID="{9B9505C7-F947-48E5-8DDD-30BEF9BDC0CF}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Badly_Injured" ID="{C0E543E8-251E-4B93-99EC-31A7933E6DD6}"/>
+						<CurrentSwitchRef Name="Healthy" ID="{272782F3-F90D-4488-A5CA-9E574702FDC3}"/>
 						<CurrentSwitchRef Name="Explore" ID="{5CC1848B-B9F6-465C-8638-EB86F19B8333}"/>
 						<CurrentSwitchRef Name="Left" ID="{AB05A8F3-EDB5-4706-9091-48CBB0549E6F}"/>
 						<CurrentSwitchRef Name="Concrete" ID="{0BFD2921-C3B4-4EF0-A3A5-BDAA47C94487}"/>

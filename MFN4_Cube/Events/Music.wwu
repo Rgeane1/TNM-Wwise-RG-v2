@@ -45,6 +45,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{AD089F68-FB63-444E-AA0D-609CEEC97711}" ShortID="6602706">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Alive" ID="{9C5D7F20-92FC-4387-9BCC-F6F4D27F9B34}" WorkUnitID="{71247B77-226A-4405-93DB-95421DC96BEE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Monsters_Aware" ID="{DD3E9E80-9339-4438-8CC5-FB365BA43C3F}">
@@ -77,12 +87,6 @@
 				</Event>
 				<Event Name="Map_Completed" ID="{45AF5C4C-4E3D-4060-81F0-80BE766B2269}">
 					<ChildrenList>
-						<Action Name="" ID="{2F7B49C7-F53D-4EB6-A135-E0897E0F0F2F}" ShortID="1024429990">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="3"/>
-							</PropertyList>
-							<ReferenceList/>
-						</Action>
 						<Action Name="" ID="{0A78ACA2-0846-41B9-8778-7FE6ADBE8C8C}" ShortID="155193243">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="22"/>

@@ -36,7 +36,7 @@
 				<Property Name="Interactive Music\x64_{3614AE67-BB07-43F3-BBF7-344EF3567E4B} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP4hfpdUb1UNAAAAAAAAA8D8AAAAAAIBCQAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{69099D11-4ED5-4C54-B876-17D5BE339D67} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP4hfpdUb1UNAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{794E0660-61FF-4361-B463-C820BEE417CD} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP0JqyjXrczpAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
-				<Property Name="Interactive Music\x64_{825ECB2B-5EAC-4BB7-8545-95D10705A060} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP6k6ajj+VTJAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAGZA"/>
+				<Property Name="Interactive Music\x64_{825ECB2B-5EAC-4BB7-8545-95D10705A060} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP6k6ajj+VTJAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAC5A"/>
 				<Property Name="Interactive Music\x64_{9C6C0CA5-DDC8-4505-827B-F1F307467FE8} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP/96L47BMUlAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{9EA29F59-E1B1-4811-9F2A-D140A9F1EA98} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP+dR5xApTTVAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="Interactive Music\x64_{AFDD9F2C-1856-4627-8EA8-766DF770CF57} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwPwAAAAAA0GdAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
@@ -59,6 +59,8 @@
 				<Property Name="Music Transition List\{3F63E32B-58A0-41E8-88C4-F97166420561}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{436C69EE-7DAA-41AE-961B-8841BF6DAE7C}\Scroll Position" Type="int32" Value="0"/>
 				<Property Name="Music Transition List\{436C69EE-7DAA-41AE-961B-8841BF6DAE7C}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{488D5B63-A1D3-40F6-A538-1268F07B537E}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{488D5B63-A1D3-40F6-A538-1268F07B537E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{4FD7E5C0-BB77-4FB1-A4B2-2CCAF8E77293}\Scroll Position" Type="int32" Value="0"/>
 				<Property Name="Music Transition List\{4FD7E5C0-BB77-4FB1-A4B2-2CCAF8E77293}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{5A9233D5-D629-4493-ABB2-1665779C9939}\Scroll Position" Type="int32" Value="0"/>

@@ -5,19 +5,86 @@
 			<ChildrenList>
 				<ControlSurfaceSession Name="Default Control Surface Session" ID="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}">
 					<ChildrenList>
-						<ControlSurfaceBindingGroup Name="Global" ID="{1FFF4497-F582-4DAE-8F9E-BCFB364E4B8E}"/>
+						<ControlSurfaceBindingGroup Name="Global" ID="{1FFF4497-F582-4DAE-8F9E-BCFB364E4B8E}">
+							<ChildrenList>
+								<ControlSurfaceBinding Name="Binding" ID="{4D5814B7-113E-4CDD-B6F5-4621F16409E8}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="IAC Bus~Ch.1~Note-On~60"/>
+										<Property Name="TargetName" Type="string" Value="TransportPlayStop"/>
+										<Property Name="TargetType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="Music" ID="{F6EC3C7D-849F-4CC5-B346-02D39053F928}" WorkUnitID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+								<ControlSurfaceBinding Name="Binding" ID="{06180AD3-6A9D-4718-B9B6-8A2B36C58FCF}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="IAC Bus~Ch.1~Note-On~62"/>
+										<Property Name="TargetName" Type="string" Value="TransportPlay"/>
+										<Property Name="TargetType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="Monsters_Unaware" ID="{15836426-1FCC-4DC9-9411-E228E50BD32E}" WorkUnitID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+								<ControlSurfaceBinding Name="Binding" ID="{D3C5144D-F876-4802-B7B9-CFE1DBA66376}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="IAC Bus~Ch.1~Note-On~64"/>
+										<Property Name="TargetName" Type="string" Value="TransportPlay"/>
+										<Property Name="TargetType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="Monsters_Aware" ID="{DD3E9E80-9339-4438-8CC5-FB365BA43C3F}" WorkUnitID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+								<ControlSurfaceBinding Name="Binding" ID="{CEC0D7F1-ECDE-4462-A414-723224CA5A7F}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="IAC Bus~Ch.1~Note-On~65"/>
+										<Property Name="TargetName" Type="string" Value="TransportPlay"/>
+										<Property Name="TargetType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="Defeated_Player" ID="{53536978-75D5-48D0-B19B-210DC5361B10}" WorkUnitID="{27ACFC61-8688-482D-A1F6-F21654EA4BDE}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+								<ControlSurfaceBinding Name="Binding" ID="{CEE0B466-907A-4D37-8EB0-757B406E2E9D}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="IAC Bus~Ch.1~Note-On~48"/>
+										<Property Name="TargetName" Type="string" Value="TransportStop"/>
+										<Property Name="TargetType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="Music" ID="{F6EC3C7D-849F-4CC5-B346-02D39053F928}" WorkUnitID="{FFD63C44-FF90-4A9D-83A5-642257A6B126}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+								<ControlSurfaceBinding Name="Binding" ID="{A925AB7C-58AD-49DE-A386-83C0B291B147}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="IAC Bus~Ch.1~CC~1"/>
+										<Property Name="TargetClassID" Type="int32" Value="1507344"/>
+										<Property Name="TargetName" Type="string" Value="SimulationValue"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="PlayerHealth" ID="{B1BC4BE3-DED0-4EF1-89E0-83D78E80839C}" WorkUnitID="{3099D78D-24D8-428D-BDD1-C9B519ED933C}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+							</ChildrenList>
+						</ControlSurfaceBindingGroup>
 						<ControlSurfaceBindingGroup Name="Current Selection" ID="{D0A69414-BC42-48AE-96EF-131CC15A85EF}">
 							<PropertyList>
 								<Property Name="GroupType" Type="int16" Value="4"/>
 							</PropertyList>
-							<ChildrenList>
-								<ControlSurfaceBinding Name="Binding" ID="{7AA070F8-BA7D-47E2-A2A4-BE8C024BC2F3}">
-									<PropertyList>
-										<Property Name="TargetName" Type="string" Value="PassMidiNote"/>
-										<Property Name="TargetType" Type="int16" Value="1"/>
-									</PropertyList>
-								</ControlSurfaceBinding>
-							</ChildrenList>
 						</ControlSurfaceBindingGroup>
 						<ControlSurfaceBindingGroup Name="View Groups" ID="{129F8412-9703-488B-B8BF-C42FF354E531}">
 							<PropertyList>

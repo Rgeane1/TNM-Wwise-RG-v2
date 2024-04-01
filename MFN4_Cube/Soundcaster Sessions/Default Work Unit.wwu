@@ -43,7 +43,7 @@
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Yes" ID="{0B88A8D2-2D65-4B5E-A92A-10DB34C07E8F}"/>
 						<CurrentStateRef Name="Victory" ID="{9D4E034F-41EC-4FF1-ACC3-389B09BADEF7}"/>
-						<CurrentStateRef Name="Alive" ID="{9C5D7F20-92FC-4387-9BCC-F6F4D27F9B34}"/>
+						<CurrentStateRef Name="Defeated" ID="{88957439-75EF-4388-B7D5-C80FBE8EE054}"/>
 						<CurrentStateRef Name="None" ID="{3F8341B5-F82B-487B-85E9-55F1A71482A9}"/>
 						<CurrentStateRef Name="Combat" ID="{9B9505C7-F947-48E5-8DDD-30BEF9BDC0CF}"/>
 					</CurrentStateList>
